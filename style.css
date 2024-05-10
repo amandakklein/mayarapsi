@@ -78,6 +78,10 @@ section#contato .container {
     padding: 0 10vmin;
 }
 
+section#contato{
+    padding: 30vmin 0 30vmin;
+}
+
 section#servicos {
     padding-top: 18vmin;
 }
