@@ -1,0 +1,330 @@
+@font-face {
+    font-family: "Fors";
+    src: url("assets/fonts/TT\ Fors\ Trial\ Regular.ttf");
+}
+
+@font-face {
+    font-family: "Apple";
+    src: url("assets/fonts/Star\ Blush\ Serif\ Regular.otf");
+}
+
+* {
+    font-family: 'Fors', sans-serif;
+}
+
+.img-logo {
+    width: 30vmin;
+}
+
+.nav-link {
+    text-transform: capitalize;
+    font-weight: 450;
+    letter-spacing: 2px;
+    color: #113255;
+    font-size: 0.9em;
+}
+
+.nav-link.active {
+    border-bottom: 2px solid #ae5b77;
+}
+
+.nav-link.agendar {
+    border: 1px solid #ae5b77;
+    color: #ae5b77;
+    font-weight: 400;
+    padding: 8px 15px !important;
+}
+
+.nav-link.agendar:hover {
+    border: 1px solid #ae5b77;
+    color: #f3f2f7;
+    font-weight: 400;
+    background-color: #ae5b77;
+    padding: 8px 15px !important;
+}
+
+li.nav-item {
+    padding: 5px 20px;
+}
+
+.navbar {
+    background-color: #F3F2F7;
+}
+
+section {
+    position: relative;
+    background-color: #F3F2F7;
+    padding: 12vmin 0 10vmin;
+}
+
+section#inicio {
+    font-style: italic;
+    margin-top: 11vmin;
+    padding: 17vmin 20vmin;
+    color: #ae5b77;
+    background-color: transparent;
+}
+
+section#inicio h5 {
+    width: fit-content;
+    background-color: #F3F2F7;
+}
+
+section#sobremim .container,
+section#abordagens .container,
+section.frase .container,
+section#servicos .container,
+section#contato .container {
+    padding: 0 10vmin;
+}
+
+section#servicos {
+    padding-top: 18vmin;
+}
+
+section#inicio h2 {
+    font-size: 2.7rem;
+    font-family: "Apple", serif;
+    background-color: #F3F2F7;
+}
+
+div.autor {
+    justify-content: end;
+    display: flex;
+}
+
+video {
+    opacity: 0.3;
+    width: 100%;
+    position: absolute;
+}
+
+img.img-terapia {
+    width: 130%;
+}
+
+img.img-terapia.mayara {
+    width: 80%;
+}
+
+div.col-img {
+    display: flex;
+    align-items: center;
+}
+
+.subtitulo {
+    color: #ae5b77;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.titulo {
+    color: #113255;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin: 5px 0 25px;
+}
+
+.texto {
+    text-align: justify;
+    color: #343a40;
+    padding: 0;
+}
+
+.col-texto {
+    padding: 0;
+    padding-right: 10vmin;
+}
+
+span.espaco {
+    display: block;
+    padding: 5px 0;
+}
+
+section.frase {
+    text-align: center;
+    color: white;
+    background-color: #ae5b77;
+    padding: 15vmin 0;
+}
+
+section.frase h2 {
+    font-style: italic;
+    font-family: "Apple", serif;
+}
+
+section.frase div.autor h5 {
+    justify-content: end;
+    display: flex;
+    font-size: 1em;
+}
+
+section.meio1 {
+    background-color: #113255;
+    color: #f3f2f7;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+section.meio2 {
+    background-color: #ae5b77;
+    color: #f3f2f7;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+section.meio1 h2,
+section.meio2 h2 {
+    align-items: center;
+    display: flex;
+    font-size: 1.2em;
+    letter-spacing: 4px;
+}
+
+section.meio1 a,
+section.meio1 a:visited,
+section.meio2 a,
+section.meio2 a:visited {
+    text-decoration: none;
+    color: #F3F2F7;
+}
+
+section.meio1 .col,
+section.meio2 .col {
+    justify-content: center;
+    display: flex;
+}
+
+img.icon-img {
+    width: 4vmin;
+    margin-right: 15px;
+}
+
+img.icon-img.bt {
+    width: 3vmin;
+    margin-right: 15px;
+}
+
+.agendar-meio {
+    border: 1px solid #ae5b77;
+    color: #ae5b77;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    /* Adicionando uma transição suave */
+}
+
+.agendar-meio:hover {
+    color: #F3F2F7;
+    background-color: #ae5b77;
+}
+
+.icon-fa {
+    margin-right: 10px;
+}
+
+.whatsapp-fab {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 28px;
+    line-height: 51px;
+    text-decoration: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    z-index: 10;
+}
+
+.whatsapp-fab:hover {
+    transform: scale(1.1);
+    /* Aumenta o tamanho em 10% no hover */
+}
+
+div.info-contatos h5,
+div.info-contatos a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #343a40;
+    padding: 5px 0;
+}
+
+div.info-contatos i {
+    color: #ae5b77;
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+section.direitos {
+    padding: 3px;
+    color: #f3f2f7;
+    background-color: #113255;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+section.direitos p {
+    margin: 7px 0;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+/* Estilos para telas menores que 600px */
+@media (max-width: 600px) {
+
+    /* Seus estilos aqui */
+    section#inicio h2 {
+        font-size: 1rem;
+        font-family: "Apple", serif;
+        background-color: #F3F2F7;
+    }
+
+    section#inicio {
+        font-style: italic;
+        margin-top: 11vmin;
+        padding: 17vmin 5vmin;
+        color: #ae5b77;
+        background-color: transparent;
+    }
+    section#inicio h5 {
+        width: fit-content;
+        background-color: #F3F2F7;
+        font-size: 85%;
+    }
+
+    .col-texto {
+        padding: 0;
+        padding-right: 0vmin;
+    }
+
+    section.direitos {
+        padding: 3px;
+        color: #f3f2f7;
+        background-color: #113255;
+        text-align: center;
+        font-size: 75%;
+    }
+
+    img.img-terapia.mayara {
+        width: 60%;
+        padding: 10px 0 30px;
+    }
+    div.col-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
